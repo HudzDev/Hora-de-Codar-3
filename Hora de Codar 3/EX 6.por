@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     
-    real nota1, nota2, nota3, nota4, media, media2
+    real nota1, nota2, media
     inteiro aprovados = 0
     cadeia resposta = "Sim"
 
@@ -14,7 +14,7 @@ programa {
 
     media = (nota1 + nota2) / 2
 
-    escreva("\nA média desse aluno é: ",media,".\n")
+    escreva("\nA mÃ©dia desse aluno Ã©: ",media,".\n")
 
     se(media >= 9.5){
       escreva("\nAluno aprovado!\n")
@@ -23,7 +23,7 @@ programa {
       escreva("\nAluno reprovado!\n")
     }
 
-    escreva("\nDeseja calcular a média de mais um aluno? (Sim/Não): ")
+    escreva("\nDeseja calcular a mÃ©dia de mais um aluno? (Sim/NÃ£o): ")
     leia(resposta)
     limpa()
     }
